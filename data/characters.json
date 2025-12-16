@@ -1,0 +1,100 @@
+{
+  "characters": [
+    {
+      "id": "eromanga",
+      "name": "埃罗芒阿老师",
+      "realName": "和泉纱雾",
+      "avatar": "./photos/工口老师/エロマンガ先生~~（夏）-63442071-0.png",
+      "japaneseName": "エロマンガ先生",
+      "birthday": "12月10日",
+      "age": "12岁",
+      "height": "145cm",
+      "tags": ["妹妹", "插画家", "害羞", "宅女"],
+      "description": "重度家里蹲，只要有其他人出现在家中，就绝对不会走出房间。跟第一年成为家人的和泉正宗没有怎么见过面，甚至连声音也听不出来。",
+      "color1": "#ff6bc9",
+      "color2": "#ff85d1",
+      "color3": "#ff4db8",
+      "quotes": [
+        {
+          "text": "才、才不是专门为你画的呢！只是刚好画了而已！",
+          "image": "images/quotes/eromanga1.jpg"
+        },
+        {
+          "text": "哥哥……这个月的原稿……",
+          "image": "images/quotes/eromanga2.jpg"
+        }
+      ],
+      "gallery": [
+        "images/gallery/eromanga1.jpg",
+        "images/gallery/eromanga2.jpg",
+        "images/gallery/eromanga3.jpg"
+      ]
+    },
+    {
+      "id": "rikka",
+      "name": "六花chan",
+      "realName": "小鸟游六花",
+      "avatar": "photos/六花chan/20210731115749_2c706.jpg",
+      "japaneseName": "小鳥遊 六花",
+      "birthday": "6月12日",
+      "age": "15岁",
+      "height": "150cm",
+      "tags": ["中二病", "邪王真眼", "可爱", "害羞"],
+      "description": "高中一年级学生，右眼戴着金色的彩瞳，并总是戴着眼罩，左手则绑着绷带。自称自己的右眼是邪王真眼，会使用漆黑泽克斯原始型第二的魔法。",
+      "color1": "#7b68ee",
+      "color2": "#9370db",
+      "color3": "#8a2be2",
+      "quotes": [
+        {
+          "text": "爆裂吧，现实！崩裂吧，精神！放逐这个世界！",
+          "image": "images/quotes/rikka1.jpg"
+        },
+        {
+          "text": "被漆黑烈焰吞噬殆尽吧！",
+          "image": "images/quotes/rikka2.jpg"
+        }
+      ],
+      "gallery": [
+        "images/gallery/rikka1.jpg",
+        "images/gallery/rikka2.jpg",
+        "images/gallery/rikka3.jpg"
+      ]
+    },
+    {
+      "id": "chitanda",
+      "name": "千反田chan",
+      "realName": "千反田爱瑠",
+      "avatar": "photos/千反田chan/OIP-C (1).jpg",
+      "japaneseName": "千反田 える",
+      "birthday": "4月4日",
+      "age": "16岁",
+      "height": "160cm",
+      "tags": ["大小姐", "好奇", "温柔", "富农"],
+      "description": "神山高中一年级A班的女生，也是富农千反田家的女儿。特征是一头披肩黑发和一双紫色的大眼睛。个性认真坦率，成绩优秀，也很擅长料理。",
+      "color1": "#32cd32",
+      "color2": "#228b22",
+      "color3": "#00fa9a",
+      "quotes": [
+        {
+          "text": "我很好奇！",
+          "image": "images/quotes/chitanda1.jpg"
+        },
+        {
+          "text": "ふしぎですね…（真奇怪呢…）",
+          "image": "images/quotes/chitanda2.jpg"
+        }
+      ],
+      "gallery": [
+        "images/gallery/chitanda1.jpg",
+        "images/gallery/chitanda2.jpg",
+        "images/gallery/chitanda3.jpg"
+      ]
+    }
+  ],
+  "metadata": {
+    "total": 12,
+    "lastUpdated": "2024-01-15",
+    "version": "1.0.0",
+    "author": "老婆之家"
+  }
+}

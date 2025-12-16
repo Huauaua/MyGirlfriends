@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的老婆仓库</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/home-page.css">
+</head>
+<body>
+<!-- 背景装饰 -->
+<div class="bg-hearts" id="bg-hearts"></div>
+
+<div class="container">
+    <!-- 标题区域 -->
+    <div class="header-box">
+        <div class="heart-divider">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+
+        <h1 class="main-title">❤️ 老婆之家 ❤️</h1>
+
+        <div class="heart-divider">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+
+        <p class="subtitle">~ 欢迎来到我的二次元老婆收藏馆 ~</p>
+
+        <!-- 搜索和筛选区域 -->
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="搜索老婆名字或标签..." autocomplete="off">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+
+    <!-- 老婆链接网格（由JS动态生成） -->
+    <div class="wives-grid" id="wives-grid">
+        <!-- 卡片将在这里由JavaScript动态生成 -->
+        <div class="loading">
+            <i class="fas fa-heartbeat fa-spin"></i>
+            <p>正在加载老婆数据...</p>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer">
+        <p>精心收藏 · 永恒热爱 · 二次元的美好</p>
+        <p>Made with <i class="fas fa-heart footer-heart"></i> for all my waifus</p>
+        <p>Total: <span id="wife-count">0</span> wonderful waifus in collection</p>
+    </div>
+</div>
+
+<!-- 添加模态框用于显示详情 -->
+<div id="character-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="modal-character-info">
+            <!-- 详情内容将动态加载 -->
+        </div>
+    </div>
+</div>
+
+<script src="js/data-loader.js"></script>
+<script src="js/home-script.js"></script>
+</body>
+</html>
