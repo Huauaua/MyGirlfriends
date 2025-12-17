@@ -5,168 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>老婆详情</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
-        body { background: #1a0b1e; color: white; padding: 20px; }
-        .container { max-width: 1200px; margin: 0 auto; }
-        .navbar { background: #ff6bc9; padding: 15px; border-radius: 10px; margin-bottom: 30px; }
-        .nav-home { color: white; text-decoration: none; font-size: 18px; }
-        .character-hero { background: linear-gradient(135deg, #ff6bc9, #8a4daf); padding: 40px; border-radius: 20px; margin-bottom: 30px; }
-        .character-header { display: flex; gap: 30px; align-items: center; }
-        .character-avatar { width: 200px; height: 200px; border-radius: 50%; overflow: hidden; border: 5px solid white; }
-        .character-avatar img { width: 100%; height: 100%; object-fit: cover; }
-        .character-info h1 { font-size: 36px; margin-bottom: 10px; }
-        .character-desc { font-size: 18px; margin: 15px 0; }
-        .character-tags { display: flex; gap: 10px; margin: 15px 0; }
-        .tag { background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 20px; }
-        .quotes-section { background: rgba(255,255,255,0.05); padding: 30px; border-radius: 15px; margin-bottom: 30px; }
-        .quote-item { background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin: 20px 0; }
-        .quote-text { font-size: 20px; font-style: italic; margin-bottom: 10px; }
-        .quote-author { text-align: right; color: #ff6bc9; }
-    </style>
+    <link rel="stylesheet" href="css/chara-style.css">
 </head>
 <body>
-<div class="container">
+<div class="page-wrapper">
     <!-- 导航栏 -->
     <nav class="navbar">
         <a href="index.html" class="nav-home">
             <i class="fas fa-heart"></i> 返回老婆之家
         </a>
+        <div class="character-title" id="character-title">加载中...</div>
     </nav>
 
-    <!-- 角色信息区域 -->
-    <section id="character-hero" class="character-hero">
-        <div id="character-content">
-            <!-- 内容由JavaScript动态生成 -->
-            <div style="text-align: center; padding: 50px;">
-                <i class="fas fa-spinner fa-spin" style="font-size: 48px;"></i>
-                <p>正在加载老婆信息...</p>
+    <!-- 主内容区域 -->
+    <main class="main-content">
+        <!-- 个人信息块 -->
+        <section class="info-section" id="info-section">
+            <div class="info-card" id="info-card">
+                <!-- 信息动态加载 -->
+                <div class="loading">
+                    <i class="fas fa-heartbeat fa-spin"></i>
+                    <p>正在加载老婆信息...</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- 轮播图区域 -->
+        <section class="carousel-section" id="carousel-section">
+            <div class="carousel-container">
+                <div class="carousel-slides" id="carousel-slides">
+                    <!-- 图片动态加载 -->
+                </div>
+
+                <!-- 轮播图控制 -->
+                <button class="carousel-btn prev-btn" id="prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next-btn" id="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <!-- 轮播图信息 -->
+                <div class="carousel-info">
+                    <span id="current-slide">1</span> / <span id="total-slides">0</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>❤️ 我的老婆收藏 ❤️</p>
+        <p>永远喜欢二次元！</p>
+    </footer>
 </div>
 
+<!-- JavaScript -->
+<script src="js/character.js"></script>
 <script>
-    // 主函数
-    async function loadCharacter() {
-        console.log("开始加载角色数据...");
-
-        // 获取URL参数
-        const urlParams = new URLSearchParams(window.location.search);
-        const characterId = urlParams.get('id');
-
-        console.log("URL参数 id:", characterId);
-
-        let characterData;
-
-        // 首先尝试加载本地JSON
-        try {
-            console.log("尝试加载本地JSON数据...");
-            // 尝试多种可能的路径
-            const possiblePaths = [
-                './data/characters.json'
-            ];
-
-            let response;
-            for (const path of possiblePaths) {
-                console.log("尝试路径:", path);
-                response = await fetch(path).catch(() => null);
-                if (response && response.ok) {
-                    console.log("成功加载:", path);
-                    break;
-                }
-            }
-
-            if (response && response.ok) {
-                const jsonData = await response.json();
-                console.log("JSON数据:", jsonData);
-
-                if (jsonData && jsonData.characters) {
-                    // 从JSON中查找角色
-                    characterData = jsonData.characters.find(c => c.id === characterId);
-                    console.log("从JSON中找到角色:", characterData?.name);
-                }
-            }
-        } catch (error) {
-            console.log("加载本地JSON失败:", error.message);
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('页面初始化...');
+        if (typeof loadCharacter === 'function') {
+            loadCharacter();
         }
-
-        // 如果没有从JSON中找到，使用测试数据
-        if (!characterData) {
-            console.log("使用测试数据...");
-            characterData = testCharacters.find(c => c.id === characterId) || testCharacters[0];
-        }
-
-        console.log("最终使用的角色数据:", characterData);
-
-        // 更新页面标题
-        document.title = `${characterData.name} - 老婆之家`;
-
-        // 更新背景颜色
-        document.querySelector('.character-hero').style.background =
-            `linear-gradient(135deg, ${characterData.color1}, ${characterData.color2})`;
-
-        // 渲染页面
-        document.getElementById('character-content').innerHTML = `
-                <div class="character-header">
-                    <div class="character-avatar">
-                        <img src="${characterData.avatar}" alt="${characterData.name}">
-                    </div>
-                    <div class="character-info">
-                        <h1>${characterData.name}</h1>
-                        <p class="character-desc">${characterData.description}</p>
-                        <div class="character-tags">
-                            ${characterData.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
-                        </div>
-                    </div>
-                </div>
-
-                ${characterData.quotes && characterData.quotes.length > 0 ? `
-                <div style="margin-top: 40px;">
-                    <h2><i class="fas fa-quote-left"></i> 经典语录</h2>
-                    <div style="margin-top: 20px;">
-                        ${characterData.quotes.map(quote => `
-                            <div class="quote-item">
-                                <p class="quote-text">"${quote.text}"</p>
-                                <p class="quote-author">—— ${characterData.name}</p>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-                ` : ''}
-
-                <div style="margin-top: 30px; color: rgba(255,255,255,0.7); font-size: 14px;">
-                    角色ID: ${characterData.id}
-                </div>
-            `;
-
-        console.log("页面渲染完成！");
-    }
-
-    // 页面加载完成后执行
-    document.addEventListener('DOMContentLoaded', loadCharacter);
-
-    // 添加错误处理
-    window.addEventListener('error', function(e) {
-        console.error("页面错误:", e.error);
-        document.getElementById('character-content').innerHTML = `
-                <div style="text-align: center; padding: 50px;">
-                    <i class="fas fa-exclamation-triangle" style="font-size: 48px; color: #ff6bc9;"></i>
-                    <h2>页面加载失败</h2>
-                    <p>${e.message}</p>
-                    <a href="index.html" style="
-                        display: inline-block;
-                        margin-top: 20px;
-                        padding: 10px 20px;
-                        background: #ff6bc9;
-                        color: white;
-                        text-decoration: none;
-                        border-radius: 5px;
-                    ">返回首页</a>
-                </div>
-            `;
     });
 </script>
 </body>
-
 </html>

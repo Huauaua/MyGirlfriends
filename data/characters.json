@@ -9,7 +9,7 @@
       "birthday": "12月10日",
       "age": "12岁",
       "height": "145cm",
-      "tags": ["妹妹", "插画家", "害羞", "宅女"],
+      "tags": ["妹妹", "插画家", "害羞", "宅女", "傲娇"],
       "description": "重度家里蹲，只要有其他人出现在家中，就绝对不会走出房间。跟第一年成为家人的和泉正宗没有怎么见过面，甚至连声音也听不出来。",
       "color1": "#ff6bc9",
       "color2": "#ff85d1",
@@ -17,29 +17,39 @@
       "quotes": [
         {
           "text": "才、才不是专门为你画的呢！只是刚好画了而已！",
-          "image": "images/quotes/eromanga1.jpg"
+          "image": "./photos/工口老师/quote1.jpg"
         },
         {
           "text": "哥哥……这个月的原稿……",
-          "image": "images/quotes/eromanga2.jpg"
+          "image": "./photos/工口老师/quote2.jpg"
+        },
+        {
+          "text": "因为……最喜欢哥哥了……",
+          "image": "./photos/工口老师/quote3.jpg"
         }
       ],
       "gallery": [
-        "images/gallery/eromanga1.jpg",
-        "images/gallery/eromanga2.jpg",
-        "images/gallery/eromanga3.jpg"
+        "photos/工口老师/0d3d965f-5406-45d0-99f1-9aae29425516.jpg",
+        "photos/工口老师/1ce95f9b603a193b5db0a910dbc09e4a2e05518e.jpg@1256w_1964h_!web-article-pic.webp",
+        "photos/工口老师/6c80ca2cba85f47a218dcb8bcfb98a648a40ef68.jpg@1256w_1778h_!web-article-pic.webp",
+        "photos/工口老师/43af96c0d043af96c0d0.jpg",
+        "photos/工口老师/2384ebcbffe463b370f5df9cb55b2f93a3ba7128.png@1256w_1774h_!web-article-pic.webp",
+        "photos/工口老师/31257c2ee87c1f6e6c5d7708f18c4b451218a49b.jpg@1256w_786h_!web-article-pic.webp",
+        "photos/工口老师/88168842283b909038626a54a077c2f9290f0747.jpg@1256w_1436h_!web-article-pic.webp",
+        "photos/工口老师/a1c9f906d8edb0d3fcf3f6e7a9075eae173c2a72.jpg@1256w_792h_!web-article-pic.webp",
+        "photos/工口老师/d67d8657c2d89f7faa3490451a74d27317259cdd.png@1256w_708h_!web-article-pic.webp"
       ]
     },
     {
       "id": "rikka",
       "name": "六花chan",
       "realName": "小鸟游六花",
-      "avatar": "photos/六花chan/20210731115749_2c706.jpg",
+      "avatar": "./photos/六花/rikka_avatar.jpg",
       "japaneseName": "小鳥遊 六花",
       "birthday": "6月12日",
       "age": "15岁",
       "height": "150cm",
-      "tags": ["中二病", "邪王真眼", "可爱", "害羞"],
+      "tags": ["中二病", "邪王真眼", "可爱", "害羞", "黑丝"],
       "description": "高中一年级学生，右眼戴着金色的彩瞳，并总是戴着眼罩，左手则绑着绷带。自称自己的右眼是邪王真眼，会使用漆黑泽克斯原始型第二的魔法。",
       "color1": "#7b68ee",
       "color2": "#9370db",
@@ -47,29 +57,33 @@
       "quotes": [
         {
           "text": "爆裂吧，现实！崩裂吧，精神！放逐这个世界！",
-          "image": "images/quotes/rikka1.jpg"
+          "image": "./photos/六花/quote1.jpg"
         },
         {
           "text": "被漆黑烈焰吞噬殆尽吧！",
-          "image": "images/quotes/rikka2.jpg"
+          "image": "./photos/六花/quote2.jpg"
+        },
+        {
+          "text": "邪王真眼是最强的！",
+          "image": "./photos/六花/quote3.jpg"
         }
       ],
       "gallery": [
-        "images/gallery/rikka1.jpg",
-        "images/gallery/rikka2.jpg",
-        "images/gallery/rikka3.jpg"
+        "./photos/六花/gallery1.jpg",
+        "./photos/六花/gallery2.jpg",
+        "./photos/六花/gallery3.jpg"
       ]
     },
     {
       "id": "chitanda",
       "name": "千反田chan",
       "realName": "千反田爱瑠",
-      "avatar": "photos/千反田chan/OIP-C (1).jpg",
+      "avatar": "./photos/千反田/chitanda_avatar.jpg",
       "japaneseName": "千反田 える",
       "birthday": "4月4日",
       "age": "16岁",
       "height": "160cm",
-      "tags": ["大小姐", "好奇", "温柔", "富农"],
+      "tags": ["大小姐", "好奇", "温柔", "富农", "黑长直"],
       "description": "神山高中一年级A班的女生，也是富农千反田家的女儿。特征是一头披肩黑发和一双紫色的大眼睛。个性认真坦率，成绩优秀，也很擅长料理。",
       "color1": "#32cd32",
       "color2": "#228b22",
@@ -77,24 +91,328 @@
       "quotes": [
         {
           "text": "我很好奇！",
-          "image": "images/quotes/chitanda1.jpg"
+          "image": "./photos/千反田/quote1.jpg"
         },
         {
           "text": "ふしぎですね…（真奇怪呢…）",
-          "image": "images/quotes/chitanda2.jpg"
+          "image": "./photos/千反田/quote2.jpg"
+        },
+        {
+          "text": "我想知道事情的真相！",
+          "image": "./photos/千反田/quote3.jpg"
         }
       ],
       "gallery": [
-        "images/gallery/chitanda1.jpg",
-        "images/gallery/chitanda2.jpg",
-        "images/gallery/chitanda3.jpg"
+        "./photos/千反田/gallery1.jpg",
+        "./photos/千反田/gallery2.jpg",
+        "./photos/千反田/gallery3.jpg"
+      ]
+    },
+    {
+      "id": "pekora",
+      "name": "兔子pekora",
+      "realName": "兎田ぺこら",
+      "avatar": "./photos/兔子pekora/pekora_avatar.jpg",
+      "japaneseName": "兎田 ぺこら",
+      "birthday": "1月12日",
+      "age": "永远17岁",
+      "height": "156cm",
+      "tags": ["Vtuber", "兔子", "恶作剧", "可爱", "hololive"],
+      "description": "hololive三期生，是一只喜欢恶作剧的兔子。虽然看起来可爱，但实际上是个腹黑，经常策划各种恶作剧。标志性的口头禅是'ぺこぺこぺこ！'",
+      "color1": "#ff9966",
+      "color2": "#ffcc99",
+      "color3": "#ff6600",
+      "quotes": [
+        {
+          "text": "ぺこぺこぺこ！",
+          "image": "./photos/兔子pekora/quote1.jpg"
+        },
+        {
+          "text": "計画通り！",
+          "image": "./photos/兔子pekora/quote2.jpg"
+        },
+        {
+          "text": "嘿嘿嘿~又有新的恶作剧点子啦！",
+          "image": "./photos/兔子pekora/quote3.jpg"
+        }
+      ],
+      "gallery": [
+        "./photos/兔子pekora/gallery1.jpg",
+        "./photos/兔子pekora/gallery2.jpg",
+        "./photos/兔子pekora/gallery3.jpg"
+      ]
+    },
+    {
+      "id": "asuna",
+      "name": "亚斯娜chan",
+      "realName": "结城明日奈",
+      "avatar": "./photos/亚斯娜/asuna_avatar.jpg",
+      "japaneseName": "結城 明日奈",
+      "birthday": "9月30日",
+      "age": "17岁",
+      "height": "168cm",
+      "tags": ["剑士", "闪光", "人妻", "温柔", "坚强"],
+      "description": "SAO中的闪光亚斯娜，副团长。原本是网络游戏新手，但逐渐成长为出色的剑士。在现实世界是结城家的千金，成绩优秀的美少女。",
+      "color1": "#ff3333",
+      "color2": "#ff6666",
+      "color3": "#cc0000",
+      "quotes": [
+        {
+          "text": "我会一直陪在你的身边。",
+          "image": "./photos/亚斯娜/quote1.jpg"
+        },
+        {
+          "text": "就算是虚拟世界，这份感情也是真实的。",
+          "image": "./photos/亚斯娜/quote2.jpg"
+        },
+        {
+          "text": "让我们一起战斗到最后吧！",
+          "image": "./photos/亚斯娜/quote3.jpg"
+        }
+      ],
+      "gallery": [
+        "./photos/亚斯娜/gallery1.jpg",
+        "./photos/亚斯娜/gallery2.jpg",
+        "./photos/亚斯娜/gallery3.jpg"
+      ]
+    },
+    {
+      "id": "aqua",
+      "name": "洋葱aqua",
+      "realName": "湊あくあ",
+      "avatar": "./photos/洋葱aqua/aqua_avatar.jpg",
+      "japaneseName": "湊 あくあ",
+      "birthday": "5月23日",
+      "age": "17岁",
+      "height": "148cm",
+      "tags": ["Vtuber", "洋葱", "可爱", "冒失娘", "hololive"],
+      "description": "hololive二期生，自称才色兼备的天才忍者，实际上是经常失败的冒失娘。喜欢吃拉面，头上的两个丸子像洋葱一样，所以被称为洋葱。",
+      "color1": "#00bfff",
+      "color2": "#87ceeb",
+      "color3": "#1e90ff",
+      "quotes": [
+        {
+          "text": "あ、あくあ！",
+          "image": "./photos/洋葱aqua/quote1.jpg"
+        },
+        {
+          "text": "失敗した！",
+          "image": "./photos/洋葱aqua/quote2.jpg"
+        },
+        {
+          "text": "拉面~拉面~想吃拉面！",
+          "image": "./photos/洋葱aqua/quote3.jpg"
+        }
+      ],
+      "gallery": [
+        "./photos/洋葱aqua/gallery1.jpg",
+        "./photos/洋葱aqua/gallery2.jpg",
+        "./photos/洋葱aqua/gallery3.jpg"
+      ]
+    },
+    {
+      "id": "gura",
+      "name": "古拉酱",
+      "realName": "Gawr Gura",
+      "avatar": "./photos/古拉/gura_avatar.jpg",
+      "japaneseName": "がうる・ぐら",
+      "birthday": "6月20日",
+      "age": "9000+岁",
+      "height": "141cm",
+      "tags": ["Vtuber", "鲨鱼", "可爱", "英语", "hololiveEN"],
+      "description": "hololive English神话组一期生，来自亚特兰蒂斯的鲨鱼。虽然是9000多岁的古老生物，但外表和性格都很像小孩子。很喜欢唱歌。",
+      "color1": "#1e90ff",
+      "color2": "#00bfff",
+      "color3": "#4169e1",
+      "quotes": [
+        {
+          "text": "a!",
+          "image": "./photos/古拉/quote1.jpg"
+        },
+        {
+          "text": "Shark!",
+          "image": "./photos/古拉/quote2.jpg"
+        },
+        {
+          "text": "I'm a shark!",
+          "image": "./photos/古拉/quote3.jpg"
+        }
+      ],
+      "gallery": [
+        "./photos/古拉/gallery1.jpg",
+        "./photos/古拉/gallery2.jpg",
+        "./photos/古拉/gallery3.jpg"
+      ]
+    },
+    {
+      "id": "lastorder",
+      "name": "最后之作",
+      "realName": "打ち止め（Last Order）",
+      "avatar": "./photos/最后之作/lastorder_avatar.jpg",
+      "japaneseName": "打ち止め",
+      "birthday": "2月15日",
+      "age": "10岁",
+      "height": "135cm",
+      "tags": ["妹妹", "克隆", "可爱", "天真", "御坂网络"],
+      "description": "御坂妹妹们的指挥塔，编号20001号。作为御坂网络的管理者，拥有统率全体御坂妹妹的权限。性格比普通妹妹更加活泼天真。",
+      "color1": "#9370db",
+      "color2": "#ba55d3",
+      "color3": "#8a2be2",
+      "quotes": [
+        {
+          "text": "御坂御坂如此说道！",
+          "image": "./photos/最后之作/quote1.jpg"
+        },
+        {
+          "text": "姐姐大人！",
+          "image": "./photos/最后之作/quote2.jpg"
+        },
+        {
+          "text": "御坂也要帮忙！",
+          "image": "./photos/最后之作/quote3.jpg"
+        }
+      ],
+      "gallery": [
+        "./photos/最后之作/gallery1.jpg",
+        "./photos/最后之作/gallery2.jpg",
+        "./photos/最后之作/gallery3.jpg"
+      ]
+    },
+    {
+      "id": "miku",
+      "name": "初音miku",
+      "realName": "初音ミク",
+      "avatar": "./photos/miku/miku_avatar.jpg",
+      "japaneseName": "初音 ミク",
+      "birthday": "8月31日",
+      "age": "16岁",
+      "height": "158cm",
+      "tags": ["虚拟歌姬", "偶像", "双马尾", "葱娘", "世界第一"],
+      "description": "Crypton Future Media开发的VOCALOID系列虚拟女性歌手软件，世界最著名的虚拟歌姬。有着蓝色的双马尾，喜欢吃葱，代表色是葱绿色。",
+      "color1": "#39c5bb",
+      "color2": "#00ced1",
+      "color3": "#20b2aa",
+      "quotes": [
+        {
+          "text": "みっくみくにしてあげる♪",
+          "image": "./photos/miku/quote1.jpg"
+        },
+        {
+          "text": "Hello, world!",
+          "image": "./photos/miku/quote2.jpg"
+        },
+        {
+          "text": "世界で一番のお姫様！",
+          "image": "./photos/miku/quote3.jpg"
+        }
+      ],
+      "gallery": [
+        "./photos/miku/gallery1.jpg",
+        "./photos/miku/gallery2.jpg",
+        "./photos/miku/gallery3.jpg"
+      ]
+    },
+    {
+      "id": "misaka",
+      "name": "美琴酱",
+      "realName": "御坂美琴",
+      "avatar": "./photos/美琴/misaka_avatar.jpg",
+      "japaneseName": "御坂 美琴",
+      "birthday": "5月2日",
+      "age": "14岁",
+      "height": "161cm",
+      "tags": ["超能力", "傲娇", "电击", "Level5", "安全裤"],
+      "description": "学园都市仅有的七名超能力者中排名第三位，代号'超电磁炮'。虽然是大小姐但性格男孩子气，有着强烈的正义感，是个傲娇。",
+      "color1": "#8a2be2",
+      "color2": "#9400d3",
+      "color3": "#4b0082",
+      "quotes": [
+        {
+          "text": "正面上我啊！",
+          "image": "./photos/美琴/quote1.jpg"
+        },
+        {
+          "text": "超电磁炮！",
+          "image": "./photos/美琴/quote2.jpg"
+        },
+        {
+          "text": "バカ！",
+          "image": "./photos/美琴/quote3.jpg"
+        }
+      ],
+      "gallery": [
+        "./photos/美琴/gallery1.jpg",
+        "./photos/美琴/gallery2.jpg",
+        "./photos/美琴/gallery3.jpg"
+      ]
+    },
+    {
+      "id": "neko",
+      "name": "neko猫猫",
+      "realName": "ネコ",
+      "avatar": "./photos/neko猫猫/neko_avatar.jpg",
+      "japaneseName": "猫",
+      "birthday": "2月22日",
+      "age": "??岁",
+      "height": "155cm",
+      "tags": ["猫娘", "可爱", "兽耳", "尾巴", "傲娇"],
+      "description": "各种各样的猫娘角色总称，有着猫耳和尾巴的可爱女孩子。性格多变，有时傲娇，有时粘人，但都像真正的猫一样可爱又任性。",
+      "color1": "#ff9966",
+      "color2": "#ffcc99",
+      "color3": "#ffa500",
+      "quotes": [
+        {
+          "text": "にゃん！",
+          "image": "./photos/neko猫猫/quote1.jpg"
+        },
+        {
+          "text": "ご主人様~",
+          "image": "./photos/neko猫猫/quote2.jpg"
+        },
+        {
+          "text": "摸摸头……可以哦。",
+          "image": "./photos/neko猫猫/quote3.jpg"
+        }
+      ],
+      "gallery": [
+        "./photos/neko猫猫/gallery1.jpg",
+        "./photos/neko猫猫/gallery2.jpg",
+        "./photos/neko猫猫/gallery3.jpg"
+      ]
+    },
+    {
+      "id": "others",
+      "name": "其他酱",
+      "realName": "其他可爱的角色们",
+      "avatar": "./photos/其他/others_avatar.jpg",
+      "japaneseName": "その他",
+      "birthday": "??月??日",
+      "age": "??岁",
+      "height": "??cm",
+      "tags": ["其他", "待补充", "可爱", "备用"],
+      "description": "这里是其他所有可爱的二次元角色的集合！她们都有着独特的魅力，等待着被发现和喜爱。每一位都是独一无二的存在！",
+      "color1": "#ffcc00",
+      "color2": "#ffd700",
+      "color3": "#daa520",
+      "quotes": [
+        {
+          "text": "每一个角色都有她的故事……",
+          "image": "./photos/其他/quote1.jpg"
+        },
+        {
+          "text": "下一个老婆会是谁呢？",
+          "image": "./photos/其他/quote2.jpg"
+        },
+        {
+          "text": "二次元的魅力是无限的！",
+          "image": "./photos/其他/quote3.jpg"
+        }
+      ],
+      "gallery": [
+        "./photos/其他/gallery1.jpg",
+        "./photos/其他/gallery2.jpg",
+        "./photos/其他/gallery3.jpg"
       ]
     }
-  ],
-  "metadata": {
-    "total": 12,
-    "lastUpdated": "2024-01-15",
-    "version": "1.0.0",
-    "author": "老婆之家"
-  }
+  ]
 }
