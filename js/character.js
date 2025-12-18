@@ -15,7 +15,7 @@ async function loadCharacter() {
 
     // 尝试加载JSON数据
     try {
-        const response = await fetch('../data/characters.json');
+        const response = await fetch('../MyGirlfriends/data/characters.json');
         if (response.ok) {
             const jsonData = await response.json();
             characterData = jsonData.characters.find(c => c.id === characterId);
