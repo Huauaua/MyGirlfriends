@@ -44,7 +44,7 @@
       "id": "rikka",
       "name": "六花chan",
       "realName": "小鸟游六花",
-      "avatar": "./photos/六花/rikka_avatar.jpg",
+      "avatar": "photos/六花chan/OIP-C.jpg",
       "japaneseName": "小鳥遊 六花",
       "birthday": "6月12日",
       "age": "15岁",
@@ -69,9 +69,21 @@
         }
       ],
       "gallery": [
-        "./photos/六花/gallery1.jpg",
-        "./photos/六花/gallery2.jpg",
-        "./photos/六花/gallery3.jpg"
+        "photos/六花chan/六花-110432309-0.png",
+        "photos/六花chan/20230104005327_59696.jpg",
+        "photos/六花chan/20220801204955_78688.jpg",
+        "photos/六花chan/20220517094343_6c972.jpg",
+        "photos/六花chan/20220427110543_35e3e.jpg",
+        "photos/六花chan/20220214003717_c08a1.jpg",
+        "photos/六花chan/20210731115749_2c706.jpg",
+        "photos/六花chan/20210307120358_5f3f9.jpg",
+        "photos/六花chan/20210228144526_5eb71.jpg",
+        "photos/六花chan/20201122110121_e6c7b.jpg",
+        "photos/六花chan/20200829063043_27fd8.jpg",
+        "photos/六花chan/20200829063004_ac086.jpg",
+        "photos/六花chan/20200827125748_tehey.jpg",
+        "photos/六花chan/503d269759ee3d6d09b9641d41166d224e4adeed.jpg",
+        "photos/六花chan/2cf5e0fe9925bc319e14e24e5cdf8db1ca13709f.jpg"
       ]
     },
     {
