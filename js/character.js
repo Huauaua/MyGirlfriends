@@ -104,11 +104,6 @@ function initCarousel(characterData) {
     // 获取所有图片
     carouselImages = [];
 
-    // 添加头像
-    if (characterData.avatar) {
-        carouselImages.push(characterData.avatar);
-    }
-
     // 添加gallery图片
     if (characterData.gallery && characterData.gallery.length > 0) {
         carouselImages = carouselImages.concat(characterData.gallery);

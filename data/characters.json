@@ -70,13 +70,13 @@
       ],
       "gallery": [
         "photos/六花chan/20230104005327_59696.jpg",
+        "photos/六花chan/20210228144526_5eb71.jpg",
         "photos/六花chan/20220801204955_78688.jpg",
         "photos/六花chan/20220517094343_6c972.jpg",
         "photos/六花chan/20220427110543_35e3e.jpg",
         "photos/六花chan/20220214003717_c08a1.jpg",
         "photos/六花chan/20210731115749_2c706.jpg",
         "photos/六花chan/20210307120358_5f3f9.jpg",
-        "photos/六花chan/20210228144526_5eb71.jpg",
         "photos/六花chan/20201122110121_e6c7b.jpg",
         "photos/六花chan/20200829063043_27fd8.jpg",
         "photos/六花chan/20200829063004_ac086.jpg",
@@ -89,7 +89,7 @@
       "id": "chitanda",
       "name": "千反田chan",
       "realName": "千反田爱瑠",
-      "avatar": "./photos/千反田/chitanda_avatar.jpg",
+      "avatar": "photos/千反田chan/20190903203004_tiqju.jpg",
       "japaneseName": "千反田 える",
       "birthday": "4月4日",
       "age": "16岁",
@@ -114,7 +114,11 @@
         }
       ],
       "gallery": [
-        "./photos/千反田/gallery1.jpg"
+        "photos/千反田chan/54061660_p0.jpg",
+        "photos/千反田chan/76112680_p0_master1200.jpg",
+        "photos/千反田chan/20190903202959_pivmb.jpg",
+        "photos/千反田chan/20190903203004_tiqju.jpg",
+        "photos/千反田chan/f8b5cd77460d444b291adb364f8ff779577872ef.jpg"
       ]
     },
     {
