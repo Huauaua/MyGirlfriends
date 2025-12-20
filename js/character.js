@@ -103,13 +103,9 @@ function initCarousel(characterData) {
 
     // 获取所有图片
     carouselImages = [];
-
     // 添加gallery图片
     if (characterData.gallery && characterData.gallery.length > 0) {
         carouselImages = carouselImages.concat(characterData.gallery);
-    } else if (characterData.images && characterData.images.length > 0) {
-        // 使用images数组作为备选
-        carouselImages = characterData.images;
     }
 
     // 清空轮播图
@@ -226,7 +222,7 @@ window.addEventListener('error', function(e) {
             <div class="loading">
                 <i class="fas fa-exclamation-triangle"></i>
                 <p>页面加载失败</p>
-                <a href="index.html" class="nav-home" style="margin-top: 20px; display: inline-block;">
+                <a href="../index.html" class="nav-home" style="margin-top: 20px; display: inline-block;">
                     <i class="fas fa-home"></i> 返回首页
                 </a>
             </div>

@@ -125,7 +125,7 @@
       "id": "pekora",
       "name": "兔子pekora",
       "realName": "兎田ぺこら",
-      "avatar": "./photos/兔子pekora/pekora_avatar.jpg",
+      "avatar": "photos/兔子pekora/5486015-hololive-usada-pekora-anime-girls-bunny-girl.jpg",
       "japaneseName": "兎田 ぺこら",
       "birthday": "1月12日",
       "age": "永远17岁",
@@ -150,7 +150,13 @@
         }
       ],
       "gallery": [
-        "./photos/兔子pekora/gallery1.jpg"
+        "photos/兔子pekora/portada_usada-pekora-15.jpg",
+        "photos/兔子pekora/ぺこみこ-109430548-0.png",
+        "photos/兔子pekora/ぺこら-98280261-0.jpg",
+        "photos/兔子pekora/カーテンぺこら-88589770-0.jpg",
+        "photos/兔子pekora/新衣装ぺこら-94918507-0.jpg",
+        "photos/兔子pekora/誕生日ぺこら-87006193-0.jpg",
+        "photos/兔子pekora/雪ウサギ-86407632-0.jpg"
       ]
     },
     {
