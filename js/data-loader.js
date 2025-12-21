@@ -19,11 +19,6 @@ class CharacterDataLoader {
         }
     }
 
-    // 获取所有角色
-    getAllCharacters() {
-        return this.characters;
-    }
-
     // 搜索角色
     searchCharacters(query) {
         if (!query.trim()) {

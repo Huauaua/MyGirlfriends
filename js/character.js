@@ -51,7 +51,7 @@ function renderInfoCard(characterData) {
     infoCard.innerHTML = `
         <div class="info-header">
             <div class="info-avatar">
-                <img src="${characterData.avatar}" alt="${characterData.name}">
+                <img src="${characterData.avatar}" alt="${characterData.name}" draggable="false">
             </div>
             <h1 class="info-name">${characterData.name}</h1>
             <p class="info-japanese">${characterData.japaneseName || ''}</p>
@@ -121,6 +121,7 @@ function initCarousel(characterData) {
         img.src = imgSrc;
         img.alt = `${characterData.name} 图片 ${index + 1}`;
         img.loading = 'lazy';
+        img.draggable = false;
 
         slide.appendChild(img);
         slidesContainer.appendChild(slide);
