@@ -201,7 +201,7 @@
       "id": "aqua",
       "name": "洋葱aqua",
       "realName": "湊あくあ",
-      "avatar": "./photos/洋葱aqua/aqua_avatar.jpg",
+      "avatar": "./photos/洋葱aqua/20210104150127_99ac0.jpg",
       "japaneseName": "湊 あくあ",
       "birthday": "5月23日",
       "age": "17岁",
@@ -226,15 +226,31 @@
         }
       ],
       "gallery": [
-        "./photos/洋葱aqua/gallery1.jpg",
-        "./photos/洋葱aqua/gallery2.jpg"
+        "./photos/洋葱aqua/湊あくあ-93616921-0.png",
+        "./photos/洋葱aqua/nya~-79171059-0.jpg",
+        "./photos/洋葱aqua/44.5的湊女仆-79568541-0.jpg",
+        "./photos/洋葱aqua/アニメディア9月号-83671896-0.jpg",
+        "./photos/洋葱aqua/11bbdc725822afc7.jpg",
+        "./photos/洋葱aqua/20210104150128_f79df.jpg",
+        "./photos/洋葱aqua/20210104150127_4bc2b.jpg",
+        "./photos/洋葱aqua/20220218172155_d647e.jpg",
+        "./photos/洋葱aqua/20201226032324_0da7c.jpg",
+        "./photos/洋葱aqua/20220404123905_8b185.jpg",
+        "./photos/洋葱aqua/20210316225958_bb4f7.jpg",
+        "./photos/洋葱aqua/20200924090015_c5cd1.jpg",
+        "./photos/洋葱aqua/20210316225959_ab676.jpg",
+        "./photos/洋葱aqua/20220616174900_b343a.jpg",
+        "./photos/洋葱aqua/efc0e930ed8e404c97c897c0195b99eb_preview_mid.jpg",
+        "./photos/洋葱aqua/20200125214656_zbbbl.jpg",
+        "./photos/洋葱aqua/湊あくあ-96933833-0.jpg",
+        "./photos/洋葱aqua/20210630152605_5dba6.jpg"
       ]
     },
     {
       "id": "gura",
       "name": "古拉酱",
       "realName": "Gawr Gura",
-      "avatar": "./photos/古拉/gura_avatar.jpg",
+      "avatar": "./photos/Gura_chan/1200px-Gawr_Gura_-_Portrait_01.webp",
       "japaneseName": "がうる・ぐら",
       "birthday": "6月20日",
       "age": "9000+岁",
@@ -247,21 +263,37 @@
       "quotes": [
         {
           "text": "a!",
-          "image": "./photos/古拉/quote1.jpg"
+          "image": "./photos/Gura_chan/quote1.jpg"
         },
         {
           "text": "Shark!",
-          "image": "./photos/古拉/quote2.jpg"
+          "image": "./photos/Gura_chan/quote2.jpg"
         },
         {
           "text": "I'm a shark!",
-          "image": "./photos/古拉/quote3.jpg"
+          "image": "./photos/Gura_chan/quote3.jpg"
         }
       ],
       "gallery": [
-        "./photos/古拉/gallery1.jpg",
-        "./photos/古拉/gallery2.jpg",
-        "./photos/古拉/gallery3.jpg"
+        "./photos/Gura_chan/Gawr Gura Shark Army-84972768-0.png",
+        "./photos/Gura_chan/3c0a004e61036d5cf9d7e122062c49a95ca2344e.jpg",
+        "./photos/Gura_chan/b0f6ff3f1eed1552300a73d9d9b4649c867f5712.jpg",
+        "./photos/Gura_chan/ac41126facaebb5312cd0a6e5bfd152ae8c2b162.jpg",
+        "./photos/Gura_chan/89371c36c4fbf51d2d2df6b6c3b13bacf4c70d51.jpg",
+        "./photos/Gura_chan/bd30e20f9d8e6ddb58eaefe582379c5f512f93b4.jpg",
+        "./photos/Gura_chan/20220728023358_59c75.jpeg",
+        "./photos/Gura_chan/4d95eb853afb53f308104a60b739a4edeaa2f8e3.jpg",
+        "./photos/Gura_chan/8e8684b91a8e8684b91a.jpg",
+        "./photos/Gura_chan/ef16d8c28238cd1d4feab22ada178185c16a2427.jpg",
+        "./photos/Gura_chan/a9057ef1458af7b7ca14040f25cc79008c5911b5.jpg",
+        "./photos/Gura_chan/20201212212447_da873.png",
+        "./photos/Gura_chan/Gura-111778931-0.jpg",
+        "./photos/Gura_chan/efce46c52d926b2c4928a5323518caee6367bd58.jpg",
+        "./photos/Gura_chan/20211209111537_35a54.jpg",
+        "./photos/Gura_chan/4f5270d29f4f04ac72eb85c0694243f769f0783f.jpg",
+        "./photos/Gura_chan/331ccfc41e246e8e4261a7caf565ba0d8d0f3635.jpg",
+        "./photos/Gura_chan/ddec8440c877a8f801038d68128dacd3dd60b459.jpg",
+        "./photos/Gura_chan/OIP-C.jpg"
       ]
     },
     {
