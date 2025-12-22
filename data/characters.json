@@ -300,7 +300,7 @@
       "id": "lastorder",
       "name": "最后之作",
       "realName": "打ち止め（Last Order）",
-      "avatar": "./photos/最后之作/lastorder_avatar.jpg",
+      "avatar": "./photos/lastOrder/9f2f070828381f30b03e79eda9014c086e06f04b.webp",
       "japaneseName": "打ち止め",
       "birthday": "2月15日",
       "age": "10岁",
@@ -313,21 +313,29 @@
       "quotes": [
         {
           "text": "御坂御坂如此说道！",
-          "image": "./photos/最后之作/quote1.jpg"
+          "image": "./photos/lastOrder/quote1.jpg"
         },
         {
           "text": "姐姐大人！",
-          "image": "./photos/最后之作/quote2.jpg"
+          "image": "./photos/lastOrder/quote2.jpg"
         },
         {
           "text": "御坂也要帮忙！",
-          "image": "./photos/最后之作/quote3.jpg"
+          "image": "./photos/lastOrder/quote3.jpg"
         }
       ],
       "gallery": [
-        "./photos/最后之作/gallery1.jpg",
-        "./photos/最后之作/gallery2.jpg",
-        "./photos/最后之作/gallery3.jpg"
+        "./photos/lastOrder/40405020_p0.webp",
+        "./photos/lastOrder/574e9258d109b3de4e0302eecdbf6c81810a4cfc.jpg",
+        "./photos/lastOrder/最后之作 20001 （临摹）-59238710-0.jpg",
+        "./photos/lastOrder/0824ab18972bd407491d82057a899e510eb3096b.webp",
+        "./photos/lastOrder/08f790529822720e678a047c7acb0a46f31fabf4.jpg",
+        "./photos/lastOrder/33323h76p0.jpg",
+        "./photos/lastOrder/d058ccbf6c81800a01da320fb43533fa828b47f7.jpg",
+        "./photos/lastOrder/a1ec08fa513d2697cef9ab5c50fbb2fb4316d88d.jpg",
+        "./photos/lastOrder/20210530224257_e900e.jpg",
+        "./photos/lastOrder/b151f8198618367a3d9351fd25738bd4b31ce5fc.webp",
+        "./photos/lastOrder/c9fcc3cec3fdfc03a1a842b9d13f8794a5c226da.jpg"
       ]
     },
     {
