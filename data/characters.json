@@ -342,7 +342,7 @@
       "id": "miku",
       "name": "初音miku",
       "realName": "初音ミク",
-      "avatar": "./photos/miku/miku_avatar.jpg",
+      "avatar": "./photos/未来/OIP-C (1).jpg",
       "japaneseName": "初音 ミク",
       "birthday": "8月31日",
       "age": "16岁",
@@ -355,21 +355,36 @@
       "quotes": [
         {
           "text": "みっくみくにしてあげる♪",
-          "image": "./photos/miku/quote1.jpg"
+          "image": "./photos/未来/quote1.jpg"
         },
         {
           "text": "Hello, world!",
-          "image": "./photos/miku/quote2.jpg"
+          "image": "./photos/未来/quote2.jpg"
         },
         {
           "text": "世界で一番のお姫様！",
-          "image": "./photos/miku/quote3.jpg"
+          "image": "./photos/未来/quote3.jpg"
         }
       ],
       "gallery": [
-        "./photos/miku/gallery1.jpg",
-        "./photos/miku/gallery2.jpg",
-        "./photos/miku/gallery3.jpg"
+        "./photos/未来/誕生日おめでとう!!-92394313-0.jpg",
+        "./photos/未来/-6ab0f55198326609.jpg",
+        "./photos/未来/4b680234314b68023431.jpg",
+        "./photos/未来/大头3.jpeg",
+        "./photos/未来/ダブルピースのやつ-81585447-1.jpg",
+        "./photos/未来/606189be68606189be68.jpg",
+        "./photos/未来/410f1ab16e410f1ab16e.jpg",
+        "./photos/未来/152e0107e2152e0107e2.jpg",
+        "./photos/未来/9419236dc89419236dc8.jpg",
+        "./photos/未来/3a3a90bb873a3a90bb87.jpg",
+        "./photos/未来/梳头发.jpg",
+        "./photos/未来/miku.jpg",
+        "./photos/未来/ﾐｯｸﾐｸﾆｼﾃﾔﾝﾖ-8540284-0.png",
+        "./photos/未来/大头5.jpg",
+        "./photos/未来/摇摆miku.gif",
+        "./photos/未来/OIP-C (2).jpg",
+        "./photos/未来/OIP-C (4).jpg",
+        "./photos/未来/OIP-C (3).jpg"
       ]
     },
     {
