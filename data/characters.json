@@ -435,7 +435,35 @@
         "./photos/misaka_chan/47f21d20cdd98d6a4f6007e91877f9993f9e3c3c.jpg@1256w_2154h_!web-article-pic.webp",
         "./photos/misaka_chan/3347b712991258c87e26a7cc2cb5919b6471f7fd.jpg@1256w_708h_!web-article-pic.webp"
       ]
+    },
+    {
+      "id": "Nachoneko",
+      "name": "甘城猫猫",
+      "realName": "Nacho Neko",
+      "avatar": "./photos/neko_chan/b4f525a6909133181b35483dd22c6ec7a085b48f.jpg@1256w_878h_!web-article-pic.avif",
+      "japaneseName": "甘城なつき",
+      "birthday": "10月11日",
+      "age": "10,000岁(自称)",
+      "height": "158cm",
+      "tags": ["Vtuber", "细腻可爱", "少女", "猫耳娘", "插画家"],
+      "description": "甘城なつき是一名日本的插画家。同时以个人势VTuber身份从2021年9月5日在YouTube开展相关活动。",
+      "color1": "#8a2be2",
+      "color2": "#9400d3",
+      "color3": "#4b0082",
+      "quotes": [],
+      "gallery": [
+        "./photos/neko_chan/wp10079167.png",
+        "./photos/neko_chan/84b112b017bb5da61f9c572849d2aed480366b39.png@1256w_1774h_!web-article-pic.avif",
+        "./photos/neko_chan/15b083d85b403bfcfd30f80ac2268a17b890ea75.png@1256w_1730h_!web-article-pic.avif",
+        "./photos/neko_chan/8170e97c0430fcaabfa67b82dde5e5b4c1df309c.png@1256w_2250h_!web-article-pic.avif",
+        "./photos/neko_chan/3b2e68bc9afbfb5ea0e3e7f850ab3575d6e672e9.png@1256w_1748h_!web-article-pic.avif",
+        "./photos/neko_chan/cd0bacca304979eb7eb0d267cf26ecced4b828ed.png@1256w_2196h_!web-article-pic.avif",
+        "./photos/neko_chan/3dc827f2aa2c84bc6648571f4728eaf61d9f97c4.jpg@1256w_1168h_!web-article-pic.avif",
+        "./photos/neko_chan/c37a74b8fa2929881e9f2e22da1e8ac4ba1d174f.png@1256w_1766h_!web-article-pic.avif",
+        "./photos/neko_chan/30e599e797f82bd72a3eebd9e4713030821f978f.png@1256w_1322h_!web-article-pic.avif",
+        "./photos/neko_chan/b014f831639dae1367db8532b1ab520b625593ac.png@1256w_1436h_!web-article-pic.avif",
+        "./photos/neko_chan/8ed7d45527bef0815fbfcfe6f1275d32b6a20a79.jpg@1256w_818h_!web-article-pic.avif"
+      ]
     }
   ]
-
 }
