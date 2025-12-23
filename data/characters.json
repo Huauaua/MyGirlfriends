@@ -391,7 +391,7 @@
       "id": "misaka",
       "name": "美琴酱",
       "realName": "御坂美琴",
-      "avatar": "./photos/美琴/misaka_avatar.jpg",
+      "avatar": "./photos/misaka_chan/c028460c9cb13c2a30d95d691815fbe6ddedbfb2.jpg@1256w_1256h_!web-article-pic.webp",
       "japaneseName": "御坂 美琴",
       "birthday": "5月2日",
       "age": "14岁",
@@ -404,89 +404,36 @@
       "quotes": [
         {
           "text": "正面上我啊！",
-          "image": "./photos/美琴/quote1.jpg"
+          "image": "./photos/misaka_chan/quote1.jpg"
         },
         {
           "text": "超电磁炮！",
-          "image": "./photos/美琴/quote2.jpg"
+          "image": "./photos/misaka_chan/quote2.jpg"
         },
         {
           "text": "バカ！",
-          "image": "./photos/美琴/quote3.jpg"
+          "image": "./photos/misaka_chan/quote3.jpg"
         }
       ],
       "gallery": [
-        "./photos/美琴/gallery1.jpg",
-        "./photos/美琴/gallery2.jpg",
-        "./photos/美琴/gallery3.jpg"
-      ]
-    },
-    {
-      "id": "neko",
-      "name": "neko猫猫",
-      "realName": "ネコ",
-      "avatar": "./photos/neko猫猫/neko_avatar.jpg",
-      "japaneseName": "猫",
-      "birthday": "2月22日",
-      "age": "??岁",
-      "height": "155cm",
-      "tags": ["猫娘", "可爱", "兽耳", "尾巴", "傲娇"],
-      "description": "各种各样的猫娘角色总称，有着猫耳和尾巴的可爱女孩子。性格多变，有时傲娇，有时粘人，但都像真正的猫一样可爱又任性。",
-      "color1": "#ff9966",
-      "color2": "#ffcc99",
-      "color3": "#ffa500",
-      "quotes": [
-        {
-          "text": "にゃん！",
-          "image": "./photos/neko猫猫/quote1.jpg"
-        },
-        {
-          "text": "ご主人様~",
-          "image": "./photos/neko猫猫/quote2.jpg"
-        },
-        {
-          "text": "摸摸头……可以哦。",
-          "image": "./photos/neko猫猫/quote3.jpg"
-        }
-      ],
-      "gallery": [
-        "./photos/neko猫猫/gallery1.jpg",
-        "./photos/neko猫猫/gallery2.jpg",
-        "./photos/neko猫猫/gallery3.jpg"
-      ]
-    },
-    {
-      "id": "others",
-      "name": "其他酱",
-      "realName": "其他可爱的角色们",
-      "avatar": "./photos/其他/others_avatar.jpg",
-      "japaneseName": "その他",
-      "birthday": "??月??日",
-      "age": "??岁",
-      "height": "??cm",
-      "tags": ["其他", "待补充", "可爱", "备用"],
-      "description": "这里是其他所有可爱的二次元角色的集合！她们都有着独特的魅力，等待着被发现和喜爱。每一位都是独一无二的存在！",
-      "color1": "#ffcc00",
-      "color2": "#ffd700",
-      "color3": "#daa520",
-      "quotes": [
-        {
-          "text": "每一个角色都有她的故事……",
-          "image": "./photos/其他/quote1.jpg"
-        },
-        {
-          "text": "下一个老婆会是谁呢？",
-          "image": "./photos/其他/quote2.jpg"
-        },
-        {
-          "text": "二次元的魅力是无限的！",
-          "image": "./photos/其他/quote3.jpg"
-        }
-      ],
-      "gallery": [
-        "./photos/其他/gallery1.jpg",
-        "./photos/其他/gallery2.jpg",
-        "./photos/其他/gallery3.jpg"
+        "./photos/misaka_chan/LINKS-38862330-0.jpg",
+        "./photos/misaka_chan/木陰でお昼寝-68255490-1.jpg",
+        "./photos/misaka_chan/67e46cf881ed053e69e1f59c5012ec33.jpg",
+        "./photos/misaka_chan/a4f1e-t3gti.png",
+        "./photos/misaka_chan/ec8e8c06-471c-4576-85e6-a3c2baa42976.jpg",
+        "./photos/misaka_chan/8e82b816-853e-45d9-87b7-6b2db4775576.jpg",
+        "./photos/misaka_chan/mikoto-misaka-a-certain-scientific-railgun-uhd-4k-wallpaper.jpg",
+        "./photos/misaka_chan/v2-e9a123e5b92c083525a62989d0354f02_r.jpg",
+        "./photos/misaka_chan/v2-596f6620f1b77f8066add8dc6a05bc40_r.jpg",
+        "./photos/misaka_chan/c6e83c6d436777e86fa2345b310e3841cdfc5d05.jpg@1256w_836h_!web-article-pic.webp",
+        "./photos/misaka_chan/799150ba1e1a8136ea62d2d7055e8ca2b9622bc1.jpg@1256w_1880h_!web-article-pic.webp",
+        "./photos/misaka_chan/d47ab2089da4c9641b21b9c728fc48c7a51534aa.jpg@1256w_942h_!web-article-pic.webp",
+        "./photos/misaka_chan/8a88daa7aa41be4e0d412771b01d9ed5b1d436ce.jpg@1256w_2184h_!web-article-pic.webp",
+        "./photos/misaka_chan/a5f966d3ad6f56242c444f2389ba55d3cf9f2be9.png@1256w_1478h_!web-article-pic.webp",
+        "./photos/misaka_chan/ffcd033025094a070af13dd994c32d7fb4b73cd8.jpg@1256w_1786h_!web-article-pic.webp",
+        "./photos/misaka_chan/51eb9c30b524b88916e30384719030ad767ef2be.png@1256w_1620h_!web-article-pic.webp",
+        "./photos/misaka_chan/47f21d20cdd98d6a4f6007e91877f9993f9e3c3c.jpg@1256w_2154h_!web-article-pic.webp",
+        "./photos/misaka_chan/3347b712991258c87e26a7cc2cb5919b6471f7fd.jpg@1256w_708h_!web-article-pic.webp"
       ]
     }
   ]
