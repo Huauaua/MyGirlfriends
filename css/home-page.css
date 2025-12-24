@@ -36,18 +36,6 @@ body {
     opacity: 0.1;
 }
 
-.heart {
-    position: absolute;
-    color: #ff69b4;
-    font-size: 24px;
-    animation: float 8s infinite linear;
-}
-
-@keyframes float {
-    0% { transform: translateY(100vh) rotate(0deg); }
-    100% { transform: translateY(-100px) rotate(360deg); }
-}
-
 /* 容器 */
 .container {
     max-width: 1400px;
@@ -69,16 +57,6 @@ body {
     overflow: hidden;
 }
 
-.header-box::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background: linear-gradient(90deg, #ff34a3, #ff6bc9, #ff34a3);
-}
-
 .main-title {
     font-size: 4.5rem;
     background: linear-gradient(to bottom, #ff9aef, #ff6bc9, #ff34a3);
@@ -89,12 +67,6 @@ body {
     text-shadow: 0 0 30px rgba(255, 105, 180, 0.5);
     letter-spacing: 2px;
     font-weight: 800;
-    animation: titleGlow 3s ease-in-out infinite alternate;
-}
-
-@keyframes titleGlow {
-    0% { text-shadow: 0 0 20px rgba(255, 105, 180, 0.5); }
-    100% { text-shadow: 0 0 40px rgba(255, 105, 180, 0.8), 0 0 60px rgba(255, 105, 180, 0.4); }
 }
 
 .subtitle {
@@ -120,8 +92,8 @@ body {
 }
 
 @keyframes heartbeat {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.1); }
+    0%, 100% { transform: scale(1.0); }
+    50% { transform: scale(1.7); }
 }
 
 /* 搜索框样式 */
@@ -143,12 +115,6 @@ body {
     background: rgba(255, 255, 255, 0.95);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
-}
-
-#search-input:focus {
-    outline: none;
-    box-shadow: 0 5px 25px rgba(227, 127, 229, 0.3);
-    transform: translateY(-2px);
 }
 
 #search-btn {
@@ -233,33 +199,9 @@ body {
     background: rgba(255, 255, 255, 0.15);
 }
 
-.wife-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background: linear-gradient(90deg, #e37fe5, #864d93);
-    transition: all 0.4s ease;
-}
-
 .wife-card:hover::before {
     height: 100%;
     opacity: 0.1;
-}
-
-.wife-icon {
-    font-size: 3rem;
-    color: #ff6bc9;
-    margin-bottom: 20px;
-    display: block;
-    transition: all 0.3s ease;
-}
-
-.wife-card:hover .wife-icon {
-    transform: scale(1.2) rotate(10deg);
-    color: #ff9aef;
 }
 
 .wife-name {
@@ -273,10 +215,6 @@ body {
     position: relative;
     z-index: 2;
     margin-bottom: 10px;
-}
-
-.wife-name:hover {
-    color: #fff;
 }
 
 .wife-desc {
@@ -322,7 +260,7 @@ body {
 .footer-heart {
     color: #ff6bc9;
     margin: 0 5px;
-    animation: heartbeat 1.5s infinite;
+    animation: heartbeat 2.5s infinite;
 }
 
 .footer-actions {
@@ -331,28 +269,6 @@ body {
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
-}
-
-.sort-btn {
-    background: rgba(255, 255, 255, 0.1);
-    color: #ffc8e6;
-    border: 1px solid rgba(227, 127, 229, 0.3);
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-size: 0.9rem;
-}
-
-.sort-btn:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
-}
-
-.sort-btn.active {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: white;
-    border-color: transparent;
 }
 
 /* 加载中和无结果状态 */

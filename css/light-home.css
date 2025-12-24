@@ -1,0 +1,117 @@
+:root {
+    --primary-color: #ff8acb;
+    --secondary-color: #a78bfa;
+    --accent-color: #7dd3fc;
+
+    --text-color: #4b5563;
+    --title-color: #374151;
+
+    --page-bg: linear-gradient(
+            180deg,
+            #fff7fb 0%,
+            #f5f7ff 50%,
+            #ffffff 100%
+    );
+
+    --card-bg: #ffffff;
+    --card-border: rgba(255, 182, 213, 0.35);
+
+    --shadow-soft: 0 10px 30px rgba(255, 182, 213, 0.25);
+    --shadow-hover: 0 18px 45px rgba(255, 182, 213, 0.35);
+}
+
+body {
+    background: var(--page-bg);
+    color: var(--text-color);
+}
+
+/* 小泡泡装饰 */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image:
+            radial-gradient(circle at 10% 20%, rgba(255, 182, 213, 0.25) 6px, transparent 7px),
+            radial-gradient(circle at 80% 30%, rgba(167, 139, 250, 0.25) 5px, transparent 6px),
+            radial-gradient(circle at 40% 80%, rgba(125, 211, 252, 0.25) 4px, transparent 5px);
+    background-repeat: repeat;
+    background-size: 160px 160px;
+    z-index: -1;
+}
+
+.header-box {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 28px;
+    border: 2px solid var(--card-border);
+    box-shadow: var(--shadow-soft);
+}
+
+.main-title {
+    font-size: 4rem;
+    background: linear-gradient(
+            135deg,
+            #ff8acb,
+            #a78bfa,
+            #7dd3fc
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 8px 20px rgba(255, 182, 213, 0.45);
+}
+
+.subtitle {
+    color: #6b7280;
+    letter-spacing: 2px;
+}
+
+.wife-card {
+    background: var(--card-bg);
+    border-radius: 22px;
+    border: 1.5px solid var(--card-border);
+    box-shadow: var(--shadow-soft);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.wife-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: var(--shadow-hover);
+}
+
+.wife-icon {
+    color: var(--primary-color);
+    filter: drop-shadow(0 4px 10px rgba(255, 182, 213, 0.5));
+}
+
+.wife-name {
+    color: var(--title-color);
+}
+
+.wife-desc {
+    color: #6b7280;
+}
+
+.wife-tag {
+    background: linear-gradient(
+            135deg,
+            #ffe4f0,
+            #ede9fe
+    );
+    color: #6b21a8;
+    border-radius: 999px;
+    font-size: 0.75rem;
+}
+
+#search-input {
+    background: #ffffff;
+    border-radius: 999px 0 0 999px;
+    box-shadow: var(--shadow-soft);
+}
+
+#search-btn {
+    border-radius: 0 999px 999px 0;
+}
+
+.wife-card:hover .wife-icon {
+    transform: rotate(-5deg) scale(1.15);
+}
