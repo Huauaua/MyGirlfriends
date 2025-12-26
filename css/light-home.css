@@ -8,9 +8,9 @@
 
     --page-bg: linear-gradient(
             180deg,
-            #fff7fb 0%,
-            #f5f7ff 50%,
-            #ffffff 100%
+            #ffdaeb 0%,
+            #b4c4ff 50%,
+            #ffd8d8 100%
     );
 
     --card-bg: #ffffff;
@@ -40,20 +40,21 @@ body::before {
 }
 
 .header-box {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(211, 101, 255, 0.18);
     border-radius: 28px;
     border: 2px solid var(--card-border);
     box-shadow: var(--shadow-soft);
 }
 
+.top-header-box{
+    background: rgba(129, 166, 250, 0.4);
+    border: 2px solid var(--card-border);
+    /*box-shadow: var(--shadow-soft);*/
+}
+
 .main-title {
-    font-size: 4rem;
-    background: linear-gradient(
-            135deg,
-            #ff8acb,
-            #a78bfa,
-            #7dd3fc
-    );
+    font-size: 4.5rem;
+    background: linear-gradient(to bottom, #ff9aef, #ff6bc9, #ff34a3);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -71,6 +72,8 @@ body::before {
     border: 1.5px solid var(--card-border);
     box-shadow: var(--shadow-soft);
     transition: transform 0.35s ease, box-shadow 0.35s ease;
+
+    background-color: rgba(211, 101, 255, 0.18);
 }
 
 .wife-card:hover {

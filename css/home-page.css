@@ -14,6 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+    overscroll-behavior-y: none;
 }
 
 body {
@@ -50,13 +51,41 @@ body {
     border: 3px solid rgba(255, 107, 181, 0.4);
     border-radius: 25px;
     padding: 30px 0;
-    margin-bottom: 50px;
+    margin-bottom: 8%;
     text-align: center;
     box-shadow: 0 10px 30px rgba(227, 127, 229, 0.2);
     backdrop-filter: blur(10px);
     position: relative;
     overflow: hidden;
     min-width: fit-content;
+
+    top: 48px;
+}
+.top-header-box {
+    /* 位置与布局 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+
+    /* 尺寸与间距 */
+    width: 100%;
+    height: 8%;
+    padding: 18px 32px;
+    margin-bottom: 30px;
+
+    /* 原有颜色与质感（保持不变） */
+    background: rgba(255, 223, 223, 0.1);
+    border-bottom: 3px solid rgba(255, 107, 181, 0.4);
+    backdrop-filter: blur(100px);
+
+    /* 形态 */
+    /*border-radius: 0 0 24px 24px;*/
+    overflow: hidden;
 }
 
 .main-title {

@@ -13,10 +13,14 @@
 <div class="bg-hearts" id="bg-hearts"></div>
 
 <div class="container">
+    <header class="top-header-box">
+        <nav>
+            <a href="/MyGirlfriends">首页</a>
+            <theme-button value="dark" id="btn" size="2"></theme-button>
+        </nav>
+    </header>
     <!-- 标题区域 -->
     <div class="header-box">
-
-        <theme-button value="dark" id="btn" size="3"></theme-button>
         <div class="heart-divider">
             <i class="fas fa-heart"></i>
             <i class="fas fa-heart"></i>
@@ -43,14 +47,23 @@
             <button id="search-btn"><i class="fas fa-search"></i></button>
         </div>
         <script>
-            document.body.style.backgroundColor = "#424242";
-            btn.addEventListener("change", e => {
-                if (e.detail === 'dark') {
-                    document.body.style.backgroundColor = "#424242";
-                }
-                else {
-                    document.body.style.backgroundColor = "aliceblue";
-                }
+            const themeBtn = document.querySelector('theme-button');
+            const themeLink = document.querySelector('link[href="css/light-home.css"]');
+
+            // 从 localStorage 获取状态
+            const savedTheme = localStorage.theme || 'light';
+            themeLink.disabled = savedTheme === 'dark';
+
+            // 当组件连接到页面后，初始化按钮状态
+            themeBtn.addEventListener('connected', () => {
+                themeBtn.setAttribute('value', savedTheme);
+            });
+
+            // 监听自定义事件 change
+            themeBtn.addEventListener('change', e => {
+                const isDark = e.detail === 'dark';
+                themeLink.disabled = isDark;
+                localStorage.theme = isDark ? 'dark' : 'light';
             });
         </script>
         <script src="js/pretty_btn.js"></script>
