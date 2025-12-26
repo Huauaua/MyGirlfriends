@@ -15,6 +15,8 @@
 <div class="container">
     <!-- 标题区域 -->
     <div class="header-box">
+
+        <theme-button value="dark" id="btn" size="3"></theme-button>
         <div class="heart-divider">
             <i class="fas fa-heart"></i>
             <i class="fas fa-heart"></i>
@@ -40,6 +42,18 @@
             <label for="search-input"></label><input type="text" id="search-input" placeholder="搜索老婆名字或标签..." autocomplete="off">
             <button id="search-btn"><i class="fas fa-search"></i></button>
         </div>
+        <script>
+            document.body.style.backgroundColor = "#424242";
+            btn.addEventListener("change", e => {
+                if (e.detail === 'dark') {
+                    document.body.style.backgroundColor = "#424242";
+                }
+                else {
+                    document.body.style.backgroundColor = "aliceblue";
+                }
+            });
+        </script>
+        <script src="js/pretty_btn.js"></script>
     </div>
 
     <!-- 老婆链接网格（由JS动态生成） -->
@@ -69,7 +83,10 @@
     </div>
 </div>
 
+
+
 <script src="js/data-loader.js"></script>
 <script src="js/home-script.js"></script>
+<script src="js/pretty_btn.js"></script>
 </body>
 </html>
