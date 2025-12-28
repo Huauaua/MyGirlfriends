@@ -1,20 +1,20 @@
 :root {
-    --primary-color: #ff8acb;
-    --secondary-color: #a78bfa;
-    --accent-color: #7dd3fc;
+    --primary-color: #ffc0e3;
+    --secondary-color: #d4c5ff;
+    --accent-color: #c8edff;
 
-    --text-color: #4b5563;
+    --text-color: #ffffff;
     --title-color: #374151;
 
     --page-bg: linear-gradient(
             180deg,
-            #ffdaeb 0%,
-            #b4c4ff 50%,
-            #ffd8d8 100%
+            #ffecf5 0%,
+            #e5ecff 50%,
+            #ffeded 100%
     );
 
     --card-bg: #ffffff;
-    --card-border: rgba(255, 182, 213, 0.35);
+    --card-border: rgba(109, 192, 251, 0.53);
 
     --shadow-soft: 0 10px 30px rgba(255, 182, 213, 0.25);
     --shadow-hover: 0 18px 45px rgba(255, 182, 213, 0.35);
@@ -32,7 +32,7 @@ body::before {
     inset: 0;
     background-image:
             radial-gradient(circle at 10% 20%, rgba(255, 182, 213, 0.25) 6px, transparent 7px),
-            radial-gradient(circle at 80% 30%, rgba(167, 139, 250, 0.25) 5px, transparent 6px),
+            radial-gradient(circle at 80% 30%, rgba(    167, 139, 250, 0.25) 5px, transparent 6px),
             radial-gradient(circle at 40% 80%, rgba(125, 211, 252, 0.25) 4px, transparent 5px);
     background-repeat: repeat;
     background-size: 160px 160px;
@@ -54,7 +54,7 @@ body::before {
 
 .main-title {
     font-size: 4.5rem;
-    background: linear-gradient(to bottom, #ff9aef, #ff6bc9, #ff34a3);
+    background: linear-gradient(to bottom, #ff32dd, #ff7fd4, #ff34aa);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -73,7 +73,7 @@ body::before {
     box-shadow: var(--shadow-soft);
     transition: transform 0.35s ease, box-shadow 0.35s ease;
 
-    background-color: rgba(211, 101, 255, 0.18);
+    /*background-color: rgba(211, 101, 255, 0.18);*/
 }
 
 .wife-card:hover {
@@ -117,4 +117,22 @@ body::before {
 
 .wife-card:hover .wife-icon {
     transform: rotate(-5deg) scale(1.15);
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.info-card {
+    background: linear-gradient(135deg, rgba(253, 208, 208, 0.96), rgba(220, 160, 255, 0.49));
+    border-radius: 15px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }

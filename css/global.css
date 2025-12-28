@@ -1,0 +1,131 @@
+/* 基础样式 */
+:root {
+    --primary-color: #ff6bc9;
+    --secondary-color: #8a4daf;
+    --accent-color: #4d9aff;
+    --text-color: #ffffff;
+    --light-bg: #f8f9ff;
+    --card-bg: rgba(255, 255, 255, 0.95);
+    --shadow-color: rgb(72, 40, 74);
+
+    --title-color: #374151;
+
+    --page-bg: linear-gradient(
+            180deg,
+            #ffecf5 0%,
+            #e5ecff 50%,
+            #ffeded 100%
+    );
+
+    --card-bg: #ffffff;
+    --card-border: rgba(109, 192, 251, 0.53);
+
+    --shadow-soft: 0 10px 30px rgba(255, 182, 213, 0.25);
+    --shadow-hover: 0 18px 45px rgba(255, 182, 213, 0.35);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+    overscroll-behavior-y: none;
+}
+
+body {
+    /*background-color: var(--light-bg);*/
+    padding-top: 40px; /* 为固定 header 留出空间 */
+    background: linear-gradient(135deg, #1a0b1e 0%, #2d1b3d 50%, #1a0b1e 100%);
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: var(--shadow-color);
+    border-bottom: 2px solid rgba(255, 107, 201, 0.1);
+    padding: 20px 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.header-content {
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand {
+    display: flex;
+    /*align-items: center;*/
+    gap: 15px;
+    text-decoration: none;
+}
+
+.brand-name {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.main-nav {
+    display: flex;
+    gap: 55px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 500;
+    padding: 8px 0;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    color: var(--primary-color);
+    transform: translateY(-1px);
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.nav-home {
+    color: var(--light-bg);
+    text-decoration: none;
+    font-size: 1.1rem;
+    /*align-items: center;*/
+    gap: 10px;
+    transition: all 0.3s ease;
+
+    height: 100%;
+}
+
+.nav-home:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+}

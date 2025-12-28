@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>老婆详情</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/chara-style.css">
-</head>
-<body>
-<div class="page-wrapper">
-    <!-- 导航栏 -->
-    <nav class="navbar">
-        <a href="index.html" class="nav-home">
-            <i class="fas fa-heart"></i> 返回老婆之家
-        </a>
-        <div class="character-title" id="character-title">加载中...</div>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>老婆详情</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="css/chara-style.css">
+        <link rel="stylesheet" href="css/light-home.css">
+    </head>
 
-    <!-- 主内容区域 -->
-    <main class="main-content">
-        <!-- 个人信息块 -->
-        <section class="info-section" id="info-section">
+
+    <!-- 导航栏 -->
+    <header class="header">
+        <div class="header-content">
+            <nav class="main-nav">
+                <a href="/MyGirlfriends" class="brand">
+                    <div class="brand-name">Wife House</div>
+                </a>
+                <a href="/MyGirlfriends" class="nav-item">首页</a>
+                <a href="#" class="nav-item">作品集</a>
+                <div class="character-title" id="character-title">加载中...</div>
+                <theme-button value="dark" id="btn" size="2"></theme-button>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+        <section class="carousel-section" id="carousel-section">
             <div class="info-card" id="info-card">
                 <!-- 信息动态加载 -->
                 <div class="loading">
@@ -28,9 +35,7 @@
                     <p>正在加载老婆信息...</p>
                 </div>
             </div>
-        </section>
-        <!-- 轮播图区域 -->
-        <section class="carousel-section" id="carousel-section">
+            <!-- 轮播图区域 -->
             <div class="carousel-container">
                 <div class="carousel-slides" id="carousel-slides">
                     <!-- 图片动态加载 -->
@@ -50,24 +55,43 @@
                 </div>
             </div>
         </section>
-    </main>
+
+        <!-- JavaScript -->
+        <script>
+            const themeBtn = document.querySelector('theme-button');
+            const themeLink = document.querySelector('link[href="css/light-home.css"]');
+
+            // 从 localStorage 获取状态
+            const savedTheme = localStorage.theme || 'light';
+            themeLink.disabled = savedTheme === 'dark';
+
+            // 当组件连接到页面后，初始化按钮状态
+            themeBtn.addEventListener('connected', () => {
+                themeBtn.setAttribute('value', savedTheme);
+            });
+
+            // 监听自定义事件 change
+            themeBtn.addEventListener('change', e => {
+                const isDark = e.detail === 'dark';
+                themeLink.disabled = isDark;
+                localStorage.theme = isDark ? 'dark' : 'light';
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+                console.log('页面初始化...');
+                if (typeof loadCharacter === 'function') {
+                    loadCharacter();
+                }
+            });
+        </script>
+
+        <script src="js/pretty_btn.js"></script>
+        <script src="js/character.js"></script>
+    </body>
+
 
     <!-- 页脚 -->
     <footer class="footer">
         <p>❤️ 我的老婆收藏 ❤️</p>
         <p>永远喜欢二次元！</p>
     </footer>
-</div>
-
-<!-- JavaScript -->
-<script src="js/character.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        console.log('页面初始化...');
-        if (typeof loadCharacter === 'function') {
-            loadCharacter();
-        }
-    });
-</script>
-</body>
 </html>
