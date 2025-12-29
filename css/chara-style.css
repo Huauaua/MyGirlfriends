@@ -12,6 +12,7 @@ body {
     font-size: 1.8rem;
     font-weight: 700;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    color: var(--primary-color);
 }
 
 /* ============ 轮播图区域 ============ */
@@ -121,7 +122,8 @@ body {
 .info-card {
     background: linear-gradient(135deg, rgba(255, 107, 201, 0.1), rgba(138, 77, 175, 0.1));
     border-radius: 15px;
-    padding: 30px;
+    margin-top: 30px;
+    padding: 80px;
     height: 100%;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
@@ -150,23 +152,24 @@ body {
 
 .info-name {
     font-size: 2.2rem;
-    color: #ff6bc9;
+    color: var(--text-color);
     margin-bottom: 10px;
     font-weight: 700;
 }
 
 .info-japanese {
     font-size: 1.1rem;
-    color: #c8a4d4;
+    color: var(--text-color);
     margin-bottom: 5px;
 }
 
 .info-desc {
     font-size: 1rem;
     line-height: 1.6;
-    color: #e0d6e9;
+    color: var(--text-color);
     margin-bottom: 25px;
     text-align: center;
+    font-weight: normal;
 }
 
 /* 标签 */
@@ -180,7 +183,7 @@ body {
 
 .info-tag {
     background: rgba(255, 107, 201, 0.2);
-    color: #ffc8e6;
+    color: var(--text-color);
     padding: 6px 15px;
     border-radius: 20px;
     font-size: 0.85rem;
@@ -205,14 +208,14 @@ body {
 }
 
 .meta-item i {
-    color: #ff6bc9;
+    color: var(--text-color);
     font-size: 1.2rem;
     width: 24px;
 }
 
 .meta-item span {
     font-size: 0.95rem;
-    color: #e0d6e9;
+    color: var(--text-color);
 }
 
 /* ============ 加载动画 ============ */
@@ -223,14 +226,14 @@ body {
 
 .loading i {
     font-size: 2.5rem;
-    color: #ff6bc9;
+    color: var(--text-color);
     margin-bottom: 15px;
     animation: spin 1.5s linear infinite;
 }
 
 .loading p {
     font-size: 1.1rem;
-    color: #c8a4d4;
+    color: var(--text-color);
 }
 
 @keyframes spin {
@@ -242,7 +245,7 @@ body {
 .footer {
     text-align: center;
     padding: 25px;
-    color: #c8a4d4;
+    color: var(--text-color);
     font-size: 0.95rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: 20px;

@@ -3,7 +3,7 @@
     --primary-color: #ff6bc9;
     --secondary-color: #8a4daf;
     --accent-color: #4d9aff;
-    --text-color: #ffffff;
+    --text-color: #fff3f3;
     --light-bg: #f8f9ff;
     --card-bg: rgba(255, 255, 255, 0.95);
     --shadow-color: rgb(72, 40, 74);
@@ -106,13 +106,6 @@ body {
 .nav-item:hover::after {
     width: 100%;
 }
-
-
-
-
-
-
-
 
 .nav-home {
     color: var(--light-bg);

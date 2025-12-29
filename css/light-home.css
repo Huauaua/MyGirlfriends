@@ -1,9 +1,8 @@
 :root {
-    --primary-color: #ffc0e3;
-    --secondary-color: #d4c5ff;
+    --primary-color: #40122f;
     --accent-color: #c8edff;
 
-    --text-color: #ffffff;
+    --text-color: #371a2a;
     --title-color: #374151;
 
     --page-bg: linear-gradient(
@@ -16,6 +15,7 @@
     --card-bg: #ffffff;
     --card-border: rgba(109, 192, 251, 0.53);
 
+    --shadow-color: #ecc3fa;
     --shadow-soft: 0 10px 30px rgba(255, 182, 213, 0.25);
     --shadow-hover: 0 18px 45px rgba(255, 182, 213, 0.35);
 }
@@ -28,47 +28,28 @@ body {
 /* 小泡泡装饰 */
 body::before {
     content: "";
-    position: fixed;
     inset: 0;
     background-image:
             radial-gradient(circle at 10% 20%, rgba(255, 182, 213, 0.25) 6px, transparent 7px),
             radial-gradient(circle at 80% 30%, rgba(    167, 139, 250, 0.25) 5px, transparent 6px),
             radial-gradient(circle at 40% 80%, rgba(125, 211, 252, 0.25) 4px, transparent 5px);
     background-repeat: repeat;
-    background-size: 160px 160px;
     z-index: -1;
 }
 
-.header-box {
-    background: rgba(211, 101, 255, 0.18);
-    border-radius: 28px;
-    border: 2px solid var(--card-border);
-    box-shadow: var(--shadow-soft);
-}
-
-.top-header-box{
-    background: rgba(129, 166, 250, 0.4);
-    border: 2px solid var(--card-border);
-    /*box-shadow: var(--shadow-soft);*/
-}
-
 .main-title {
-    font-size: 4.5rem;
     background: linear-gradient(to bottom, #ff32dd, #ff7fd4, #ff34aa);
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
     text-shadow: 0 8px 20px rgba(255, 182, 213, 0.45);
 }
 
 .subtitle {
     color: #6b7280;
-    letter-spacing: 2px;
 }
 
 .wife-card {
     background: var(--card-bg);
-    border-radius: 22px;
     border: 1.5px solid var(--card-border);
     box-shadow: var(--shadow-soft);
     transition: transform 0.35s ease, box-shadow 0.35s ease;
@@ -102,7 +83,6 @@ body::before {
     );
     color: #6b21a8;
     border-radius: 999px;
-    font-size: 0.75rem;
 }
 
 #search-input {
@@ -111,28 +91,15 @@ body::before {
     box-shadow: var(--shadow-soft);
 }
 
-#search-btn {
-    border-radius: 0 999px 999px 0;
-}
-
 .wife-card:hover .wife-icon {
     transform: rotate(-5deg) scale(1.15);
 }
 
 .page-wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    max-width: 1400px;
-    margin: 50px auto;
-    padding: 20px;
     background: rgba(255, 255, 255, 0);
 }
 
 .info-card {
     background: linear-gradient(135deg, rgba(253, 208, 208, 0.96), rgba(220, 160, 255, 0.49));
-    border-radius: 15px;
-    padding: 30px;
-    height: 100%;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
